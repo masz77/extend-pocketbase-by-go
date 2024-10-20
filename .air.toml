@@ -1,0 +1,8 @@
+[build]
+cmd = "go build -o ./main.exe main.go"
+post_cmd = ["./main.exe"]
+bin = "./main.exe"
+args_bin = ["serve"]
+
+[log]
+time = false

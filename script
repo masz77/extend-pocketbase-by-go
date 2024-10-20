@@ -1,0 +1,8 @@
+go run main.go serve --encryptionEnv=464a3184-67f0-466f-b191-0a287ee3eebf
+go run main.go serve
+
+eg. add export PB_ENCRYPTION_KEY="ueu8hJJEcygaz0CPbjVj7WgzF75RzJdb" in your shell profile file
+Start the application with --encryptionEnv=YOUR_ENV_VAR flag.
+eg. pocketbase serve --encryptionEnv=PB_ENCRYPTION_KEY
+
+To build a statically linked executable, you can run CGO_ENABLED=0 go build and then start the created executable with ./myapp serve
