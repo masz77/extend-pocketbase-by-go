@@ -6,3 +6,5 @@ Start the application with --encryptionEnv=YOUR_ENV_VAR flag.
 eg. pocketbase serve --encryptionEnv=PB_ENCRYPTION_KEY
 
 To build a statically linked executable, you can run CGO_ENABLED=0 go build and then start the created executable with ./myapp serve
+
+hot reload -> air

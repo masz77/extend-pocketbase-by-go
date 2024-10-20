@@ -1,0 +1,4 @@
+./main.exe
+./pb_data/*
+!./pb_data/data.db
+!./pb_data/logs.db
